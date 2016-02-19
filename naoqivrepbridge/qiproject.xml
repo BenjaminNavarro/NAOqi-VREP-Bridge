@@ -1,0 +1,15 @@
+<project version="3">
+  <!-- Add your name and e-mail here
+    <maintainer email="...">Your Name</maintainer>
+  -->
+
+  <qibuild name="naoqi_vrep_bridge">
+    <!-- Add your project dependencies here
+    <depends buildtime="true" runtime="true" names="foo" />
+    -->
+ <depends buildtime="true" runtime="true"
+    names="ALPROXIES"
+  />
+ </qibuild>
+
+</project>
